@@ -2,50 +2,122 @@
 
 .c-pattern-lab {
 
-	&__section-title {}
+	&__section-title {
+		margin: $global-spacer--2 0;
+		padding-top: $global-spacer--2;
+		border-top: 2px solid $grey;
+		font-family: $font-secondary;
+		font-size: $font-medium;
+		font-weight: bold;
+		letter-spacing: 1px;
+		color: $grey;
+	}
 
-	&__section-subtitle {}
+	&__section-subtitle {
+		margin: $global-spacer--2 0;
+		padding-bottom: $global-spacer--2;
+		border-bottom: 1px dashed $grey;
+		font-family: $font-secondary;
+		font-size: $font-extra-small;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: $dark-grey;
+	}
 
 	&__color {
+		list-style: none;
 
-		&:nth-child(1) {
+		&-outer {}
 
-			&-outer {}
+		&-inner	{
+			display: flex;
+			justify-content: space-around;
+			padding-left: 0;
 
-			&-inner {}
+			&--brand {
 
-			&-block {}
+				.c-pattern-lab__color--first {
+					
+					.c-pattern-lab__color-block {
+						display: block;
+						width: 150px;
+						height: 100px;
+						background: $red;
+					}
+				}
+
+				.c-pattern-lab__color--second {
+					
+					.c-pattern-lab__color-block {
+						display: block;
+						width: 150px;
+						height: 100px;
+						background: $green;
+					}
+				}
+
+				.c-pattern-lab__color--third {
+					
+					.c-pattern-lab__color-block {
+						display: block;
+						width: 150px;
+						height: 100px;
+						background: $gold;
+					}
+				}
+			}
+
+			&--ui {
+
+				.c-pattern-lab__color--first {
+					
+					.c-pattern-lab__color-block {
+						display: block;
+						width: 150px;
+						height: 100px;
+						background: $dark-grey;
+					}
+				}
+
+				.c-pattern-lab__color--second {
+					
+					.c-pattern-lab__color-block {
+						display: block;
+						width: 150px;
+						height: 100px;
+						background: $blue;
+					}
+				}
+
+				.c-pattern-lab__color--third {
+					
+					.c-pattern-lab__color-block {
+						display: block;
+						width: 150px;
+						height: 100px;
+						background: $pink;
+					}
+				}
+
+				.c-pattern-lab__color--fourth {
+					
+					.c-pattern-lab__color-block {
+						display: block;
+						width: 150px;
+						height: 100px;
+						border: 1px solid $black;
+						background: $white;
+					}
+				}
+			}
 
 			&-name {}
 
 			&-hex {}
 		}
 
-		&:nth-child(2) {
-
-			&-outer {}
-
-			&-inner {}
-
-			&-block {}
-
-			&-name {}
-
-			&-hex {}
-		}
-
-		&:nth-child(3) {
-
-			&-outer {}
-
-			&-inner {}
-
-			&-block {}
-
-			&-name {}
-
-			&-hex {}
-		}
+		
 	}	
 
 	&__font {
