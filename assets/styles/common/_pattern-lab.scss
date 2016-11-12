@@ -26,23 +26,30 @@
     }
 
     &__color {
+        margin-bottom: $global-spacer--2;
         list-style: none;
+
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 0;
+        }
 
         &-outer {}
 
         &-inner {
             display: flex;
+            flex-flow: column wrap;
             justify-content: space-around;
             padding-left: 0;
+
+            @include media-breakpoint-up(sm) {
+                flex-flow: row wrap;
+            }
 
             &--brand {
 
                 .c-pattern-lab__color--first {
                     
                     .c-pattern-lab__color-block {
-                        display: block;
-                        width: 150px;
-                        height: 100px;
                         background: $red;
                     }
                 }
@@ -50,9 +57,6 @@
                 .c-pattern-lab__color--second {
                     
                     .c-pattern-lab__color-block {
-                        display: block;
-                        width: 150px;
-                        height: 100px;
                         background: $green;
                     }
                 }
@@ -60,9 +64,6 @@
                 .c-pattern-lab__color--third {
                     
                     .c-pattern-lab__color-block {
-                        display: block;
-                        width: 150px;
-                        height: 100px;
                         background: $gold;
                     }
                 }
@@ -73,9 +74,6 @@
                 .c-pattern-lab__color--first {
                     
                     .c-pattern-lab__color-block {
-                        display: block;
-                        width: 150px;
-                        height: 100px;
                         background: $dark-grey;
                     }
                 }
@@ -83,9 +81,6 @@
                 .c-pattern-lab__color--second {
                     
                     .c-pattern-lab__color-block {
-                        display: block;
-                        width: 150px;
-                        height: 100px;
                         background: $blue;
                     }
                 }
@@ -93,9 +88,6 @@
                 .c-pattern-lab__color--third {
                     
                     .c-pattern-lab__color-block {
-                        display: block;
-                        width: 150px;
-                        height: 100px;
                         background: $pink;
                     }
                 }
@@ -103,21 +95,26 @@
                 .c-pattern-lab__color--fourth {
                     
                     .c-pattern-lab__color-block {
-                        display: block;
-                        width: 150px;
-                        height: 100px;
                         border: 1px solid $black;
                         background: $white;
                     }
                 }
             }
-
-            &-name {}
-
-            &-hex {}
         }
 
-        
+        &-block {
+            display: block;
+            width: 100%;
+            height: 100px;
+
+            @include media-breakpoint-up(sm) {
+                width: 150px;
+            }
+        }
+
+        &-name {}
+
+        &-hex {}
     }   
 
     &__font {
