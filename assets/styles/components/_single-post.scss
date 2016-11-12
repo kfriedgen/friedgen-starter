@@ -1,0 +1,24 @@
+// Single Post Styles
+
+.c-single-post {
+
+	&__outer {}
+	
+	&__header {}
+
+	&__entry-title {}
+
+	&__entry-content {}
+
+	&__entry-meta {}
+
+	&__footer {
+
+		&-navigation {
+
+			&-p {}
+		}
+	}
+
+	&__comments {}
+}

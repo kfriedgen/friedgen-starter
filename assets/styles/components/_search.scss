@@ -1,0 +1,35 @@
+// Search Styles
+
+.c-search {
+	
+	&__outer {}
+
+	&-content__outer {}
+
+	&__header {}
+
+	&__h2 {
+
+		&-a {}
+	}
+
+	&__entry-meta {}
+
+	&__entry-summary {}
+}
+
+// Search form
+.search-form {
+	@extend .form-inline;
+}
+.search-form label {
+	font-weight: normal;
+	@extend .form-group;
+}
+.search-form .search-field {
+	@extend .form-control;
+}
+.search-form .search-submit {
+	@extend .btn;
+	@extend .btn-secondary;
+}

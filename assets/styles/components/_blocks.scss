@@ -1,0 +1,49 @@
+// Block Styles
+
+.c-block {
+
+	&__hero {
+
+		&-outer {}
+
+		&-image {}
+
+		&-h2 {}
+	}
+
+	&__media {
+
+		&-outer {}
+
+		&-image {
+
+			&-outer {}
+		}
+
+		&-body {}
+
+		&-h2 {}
+
+		&-excerpt {}
+ 	}
+
+ 	&__tout {
+
+ 		&-outer {}
+
+ 		&-image {}
+
+ 		&-h2 {}
+ 	}
+
+ 	&__figure {
+
+ 		&-outer {}
+
+ 		&-media {}
+
+ 		&-image {}
+
+ 		&-caption {}
+ 	}
+}

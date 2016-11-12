@@ -1,0 +1,50 @@
+// Grid settings
+$enable-flex:           true;
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Spacing
+$global-spacer: 		10px;
+$global-spacer--2: 		20px;
+$global-spacer--3: 		30px;
+$global-spacer--4: 		40px;
+$global-spacer--5: 		50px;
+
+//Colors
+$white: 				#fff;
+$black:					#000;
+$grey:					#ccc;
+$red:					red;
+$gold:					gold;
+$green:					green;
+$orange:				orange;
+
+// Brand Colors
+$body-background: 		#f6f5f4;
+$box-background: 		#3e403e;
+
+// UI Colors
+$highlight:				$gold;
+$success:				$green;
+$warning:				$orange;
+$alert:					$red;
+
+// Font Colors
+$box-font-color: 		$black;
+$font-primary-color: 	$black;
+$link-color: 			$green;
+$link-hover:			$grey;
+
+// Font Sizes
+$font-extra-small: 		14px;
+$font-small:			16px;
+$font-medium:			18px;
+$font-large:			24px;
+$font-extra-large:		34px;
+
+// Typefaces
+$font-sans-serif: 	    Helvetica, sans-serif;
+$font-serif: 			Georgia, serif;
+$font-primary:    		Georgia, serif;
+$font-secondary:   		Georgia, serif;
+$font-tertiary:   		Georgia, serif;

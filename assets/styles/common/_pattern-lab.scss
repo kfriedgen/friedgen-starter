@@ -1,0 +1,99 @@
+// Pattern Lab Styles
+
+.c-pattern-lab {
+
+	&__section-title {}
+
+	&__section-subtitle {}
+
+	&__color {
+
+		&:nth-child(1) {
+
+			&-outer {}
+
+			&-inner {}
+
+			&-block {}
+
+			&-name {}
+
+			&-hex {}
+		}
+
+		&:nth-child(2) {
+
+			&-outer {}
+
+			&-inner {}
+
+			&-block {}
+
+			&-name {}
+
+			&-hex {}
+		}
+
+		&:nth-child(3) {
+
+			&-outer {}
+
+			&-inner {}
+
+			&-block {}
+
+			&-name {}
+
+			&-hex {}
+		}
+	}	
+
+	&__font {
+
+		&-primary {}
+
+		&-secondary {}
+
+		&-tertiary {}
+	}
+
+	&__animation {}
+
+	&__button {}
+
+	&__feedback {}
+
+	&__form {}
+
+	&__image {}
+
+	&__text {}
+
+	&__headings {}
+
+	&__hr {}
+
+	&__inline {}
+
+	&__paragraph {}
+
+	&__preformatted {}
+
+	&__blockquote {}
+
+	&__block {}
+
+	&__messaging {}
+
+	&__navigation {}
+
+	&__pagination {}
+}
+
+// Hide Sidebar 
+.pattern-lab {
+
+	.o-sidebar__outer {
+		display: none;
+	}
+}
