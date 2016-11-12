@@ -2,98 +2,167 @@
 
 .c-pattern-lab {
 
-	&__section-title {}
+    &__section-title {
+        margin: $global-spacer--2 0;
+        padding-top: $global-spacer--2;
+        border-top: 2px solid $grey;
+        font-family: $font-secondary;
+        font-size: $font-medium;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: $grey;
+    }
 
-	&__section-subtitle {}
+    &__section-subtitle {
+        margin: $global-spacer--2 0;
+        padding-bottom: $global-spacer--2;
+        border-bottom: 1px dashed $grey;
+        font-family: $font-secondary;
+        font-size: $font-extra-small;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $dark-grey;
+    }
 
-	&__color {
+    &__color {
+        margin-bottom: $global-spacer--2;
+        list-style: none;
 
-		&:nth-child(1) {
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 0;
+        }
 
-			&-outer {}
+        &-outer {}
 
-			&-inner {}
+        &-inner {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            padding-left: 0;
 
-			&-block {}
+            @include media-breakpoint-up(sm) {
+                flex-flow: row wrap;
+            }
 
-			&-name {}
+            &--brand {
 
-			&-hex {}
-		}
+                .c-pattern-lab__color--first {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $red;
+                    }
+                }
 
-		&:nth-child(2) {
+                .c-pattern-lab__color--second {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $green;
+                    }
+                }
 
-			&-outer {}
+                .c-pattern-lab__color--third {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $gold;
+                    }
+                }
+            }
 
-			&-inner {}
+            &--ui {
 
-			&-block {}
+                .c-pattern-lab__color--first {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $dark-grey;
+                    }
+                }
 
-			&-name {}
+                .c-pattern-lab__color--second {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $blue;
+                    }
+                }
 
-			&-hex {}
-		}
+                .c-pattern-lab__color--third {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $pink;
+                    }
+                }
 
-		&:nth-child(3) {
+                .c-pattern-lab__color--fourth {
+                    
+                    .c-pattern-lab__color-block {
+                        border: 1px solid $black;
+                        background: $white;
+                    }
+                }
+            }
+        }
 
-			&-outer {}
+        &-block {
+            display: block;
+            width: 100%;
+            height: 100px;
 
-			&-inner {}
+            @include media-breakpoint-up(sm) {
+                width: 150px;
+            }
+        }
 
-			&-block {}
+        &-name {}
 
-			&-name {}
+        &-hex {}
+    }   
 
-			&-hex {}
-		}
-	}	
+    &__font {
 
-	&__font {
+        &-primary {}
 
-		&-primary {}
+        &-secondary {}
 
-		&-secondary {}
+        &-tertiary {}
+    }
 
-		&-tertiary {}
-	}
+    &__animation {}
 
-	&__animation {}
+    &__button {}
 
-	&__button {}
+    &__feedback {}
 
-	&__feedback {}
+    &__form {}
 
-	&__form {}
+    &__image {}
 
-	&__image {}
+    &__text {}
 
-	&__text {}
+    &__headings {}
 
-	&__headings {}
+    &__hr {}
 
-	&__hr {}
+    &__inline {}
 
-	&__inline {}
+    &__paragraph {}
 
-	&__paragraph {}
+    &__preformatted {}
 
-	&__preformatted {}
+    &__blockquote {}
 
-	&__blockquote {}
+    &__block {}
 
-	&__block {}
+    &__messaging {}
 
-	&__messaging {}
+    &__navigation {}
 
-	&__navigation {}
-
-	&__pagination {}
+    &__pagination {}
 }
 
 // Hide Sidebar 
 .pattern-lab {
 
-	.o-sidebar__outer {
-		display: none;
-	}
+    .o-sidebar__outer {
+        display: none;
+    }
 }

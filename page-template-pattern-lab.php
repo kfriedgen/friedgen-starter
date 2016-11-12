@@ -12,9 +12,9 @@
 			Brand Colors
 		</h2>
 
-		<ul class="c-pattern-lab__color-inner">
+		<ul class="c-pattern-lab__color-inner c-pattern-lab__color-inner--brand">
 
-			<li class="c-pattern-lab__color">
+			<li class="c-pattern-lab__color c-pattern-lab__color--first">
 				
 				<div class="c-pattern-lab__color-block"></div>
 
@@ -28,9 +28,9 @@
 			
 			</li>
 
-			<li class="c-pattern-lab__color">
+			<li class="c-pattern-lab__color c-pattern-lab__color--second">
 
-				<div class="c-pattern-lab__color-block"></div>
+				<div class="c-pattern-lab__color-block "></div>
 
 				<div class="c-pattern-lab__color-name">
 					$color-name
@@ -42,7 +42,7 @@
 			
 			</li>
 
-			<li class="c-pattern-lab__color">
+			<li class="c-pattern-lab__color c-pattern-lab__color--third">
 				
 				<div class="c-pattern-lab__color-block"></div>
 
@@ -66,9 +66,9 @@
 			UI Colors
 		</h2>
 
-		<ul class="c-pattern-lab__color-inner">
+		<ul class="c-pattern-lab__color-inner c-pattern-lab__color-inner--ui">
 
-			<li class="c-pattern-lab__color">
+			<li class="c-pattern-lab__color c-pattern-lab__color--first">
 				
 				<div class="c-pattern-lab__color-block"></div>
 
@@ -82,7 +82,7 @@
 			
 			</li>
 
-			<li class="c-pattern-lab__color">
+			<li class="c-pattern-lab__color c-pattern-lab__color--second">
 				
 				<div class="c-pattern-lab__color-block"></div>
 
@@ -96,7 +96,21 @@
 			
 			</li>
 
-			<li class="c-pattern-lab__color">
+			<li class="c-pattern-lab__color c-pattern-lab__color--third">
+				
+				<div class="c-pattern-lab__color-block"></div>
+
+				<div class="c-pattern-lab__color-name">
+					$color-name
+				</div>
+				
+				<div class="c-pattern-lab__color-hex">
+					#AAAAAA
+				</div>
+			
+			</li>
+
+			<li class="c-pattern-lab__color c-pattern-lab__color--fourth">
 				
 				<div class="c-pattern-lab__color-block"></div>
 
