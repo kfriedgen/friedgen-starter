@@ -2,11 +2,19 @@
 
 .u-alert {
 	
-	&__success {}
+	&__success {
+		color: $success;
+	}
 
-	&__warning {}
+	&__warning {
+		color: $warning;
+	}
 
-	&__error {}
+	&__error {
+		color: $error;
+	}
 
-	&__information {}
+	&__information {
+		color: $information;
+	}
 }

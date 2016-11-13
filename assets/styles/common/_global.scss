@@ -26,9 +26,12 @@ dl {}
 li {}
 
 a {
+	color: $link-primary;
 
 	&:hover,
-	&:focus {}
+	&:focus {
+		color: $pink;
+	}
 }
 
 blockquote {}
@@ -78,6 +81,8 @@ samp {}
 
 var {}
 
-pre {}
+pre {
+    white-space: pre-line;
+}
 
 blockquote {}

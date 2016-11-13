@@ -101,11 +101,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$pink
+					$dark-pink
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#ffc0cb
+					#cc0066
 				</div>
 			
 			</li>
@@ -225,18 +225,33 @@
 
 			<legend class="c-form__legend">Select your pizza toppings:</legend>
 
-				<input id="ham" type="checkbox" name="toppings" value="ham" class="c-form__checkbox-input">
-				<label for="ham" class="c-form__checkbox-label">Ham</label>
+				<div class="c-form__field">
 				
-				<input id="pepperoni" type="checkbox" name="toppings" value="pepperoni" class="c-form__checkbox-input">
-				<label for="pepperoni" class="c-form__checkbox-label">Pepperoni</label>
+					<input id="ham" type="checkbox" name="toppings" value="ham" class="c-form__checkbox-input">
+					<label for="ham" class="c-form__checkbox-label">Ham</label>
+
+				</div>
 				
-				<input id="mushrooms" type="checkbox" name="toppings" value="mushrooms" class="c-form__checkbox-input">
-				<label for="mushrooms" class="c-form__checkbox-label">Mushrooms</label>
+				<div class="c-form__field">
 				
-				<input id="olives" type="checkbox" name="toppings" value="olives" class="c-form__checkbox-input">
-				<label for="olives" class="c-form__checkbox-label">Olives</label>
+					<input id="pepperoni" type="checkbox" name="toppings" value="pepperoni" class="c-form__checkbox-input">
+					<label for="pepperoni" class="c-form__checkbox-label">Pepperoni</label>
 				
+                </div>
+
+                <div class="c-form__field">
+                
+    				<input id="mushrooms" type="checkbox" name="toppings" value="mushrooms" class="c-form__checkbox-input">
+    				<label for="mushrooms" class="c-form__checkbox-label">Mushrooms</label>
+    			</div>
+
+                <div class="c-form__field">
+                	
+    				<input id="olives" type="checkbox" name="toppings" value="olives" class="c-form__checkbox-input">
+    				<label for="olives" class="c-form__checkbox-label">Olives</label>
+				
+                </div>
+
 		</fieldset>
 
 		<h4 class="c-pattern-lab__section-subtitle">Radio</h4>
@@ -307,10 +322,6 @@
 			<div class="c-logo__outer">
 
 				<svg version="1.1" id="Layer_1" class="c-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 46.4" style="enable-background:new 0 0 360 46.4;" xml:space="preserve">
-				
-					<style type="text/css">
-						.st0{fill:#302D33;}
-					</style>
 
 					<g>
 						<path class="st0" d="M5.3,7.9h10.7v23.6h8.8v8.4H5.3V7.9z"/>
@@ -623,7 +634,7 @@
 				<a class="o-pagination__a" href="#">2</a>
 			</li>
 			
-			<li class="o-pagination__li">
+			<li class="o-pagination__li is-active">
 				<a class="o-pagination__a" href="#">3</a>
 			</li>
 			

@@ -21,6 +21,7 @@ $green:					green;
 $orange:				orange;
 $blue:					blue;
 $pink:					pink;
+$dark-pink:				#cc0066;
 
 // Brand Colors
 $body-background: 		#f6f5f4;
@@ -30,7 +31,9 @@ $box-background: 		#3e403e;
 $highlight:				$gold;
 $success:				$green;
 $warning:				$orange;
-$alert:					$red;
+$error:					$red;
+$information:			$blue;
+$link-primary:			$dark-pink;
 
 // Font Colors
 $box-font-color: 		$black;

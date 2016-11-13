@@ -2,12 +2,18 @@
 
 .c-form {
 
-	&__label {}
+	&__label {
+		display: block;
+	}
 
 	&__text {}
 
 	&__textarea {}
 
+	&__field {
+		display: block;
+	}
+	
 	&__fieldset {}
 
 	&__legend {}

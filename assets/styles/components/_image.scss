@@ -4,7 +4,9 @@
 	
 	&--large {}
 
-	&--avatar {}
+	&--avatar {
+		max-width: 200px;
+	}
 
 	&--landscape {}
 
