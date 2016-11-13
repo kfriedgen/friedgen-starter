@@ -19,25 +19,25 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$color-name
+					$red
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#000000
+					#ff0000
 				</div>
 			
 			</li>
 
 			<li class="c-pattern-lab__color c-pattern-lab__color--second">
 
-				<div class="c-pattern-lab__color-block "></div>
+				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$color-name
+					$green
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#CCCCCC
+					#008000
 				</div>
 			
 			</li>
@@ -47,11 +47,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$color-name
+					$gold
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#AAAAAA
+					#ffd700
 				</div>
 			
 			</li>
@@ -73,11 +73,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$color-name
+					$dark-grey
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#000000
+					#8c8c8c
 				</div>
 			
 			</li>
@@ -87,11 +87,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$color-name
+					$blue
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#CCCCCC
+					#0000ff
 				</div>
 			
 			</li>
@@ -101,11 +101,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$color-name
+					$pink
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#AAAAAA
+					#ffc0cb
 				</div>
 			
 			</li>
@@ -115,11 +115,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$color-name
+					$white
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#AAAAAA
+					#ffffff
 				</div>
 			
 			</li>
@@ -155,19 +155,19 @@
 			Animation
 		</h2>
 
-		<div class="c-animation">
+		<div class="c-animation is-first">
 
 			<p class="c-animation__p">Title of Animation</p>
 		
 		</div>
 
-		<div class="c-animation">
+		<div class="c-animation is-second">
 
 			<p class="c-animation__p">Title of Animation</p>
 		
 		</div>
 		
-		<div class="c-animation">
+		<div class="c-animation is-third">
 
 			<p class="c-animation__p">Title of Animation</p>
 		
@@ -286,19 +286,19 @@
 
 		<h4 class="c-pattern-lab__section-subtitle">Hero Image</h4>
 
-		<img class="c-image c-image--large" src="http://placekitten.com/g/1000/400" alt="Large Image example" />
+		<img class="c-image c-image--large" src="http://placehold.it/1000x400" alt="Large Image example" />
 
 		<h4 class="c-pattern-lab__section-subtitle">Avatar</h4>
 
-		<img class="c-image c-image--avatar" src="http://placekitten.com/g/200/200" alt="Avatar Image example" />
+		<img class="c-image c-image--avatar" src="http://placehold.it/200x200" alt="Avatar Image example" />
 
 		<h4 class="c-pattern-lab__section-subtitle">Landscape</h4>
 
-		<img class="c-image c-image--landscape" src="http://placekitten.com/g/650/366" alt="Landscape Image example" />
+		<img class="c-image c-image--landscape" src="http://placehold.it/650x366" alt="Landscape Image example" />
 
 		<h4 class="c-pattern-lab__section-subtitle">Portrait</h4>
 
-		<img class="c-image c-image--portrait" src="http://placekitten.com/g/400/600" alt="Portrait Image example" />
+		<img class="c-image c-image--portrait" src="http://placehold.it/400x600" alt="Portrait Image example" />
 
 		<h4 class="c-pattern-lab__section-subtitle">Logo</h4>
 
@@ -462,7 +462,7 @@
 			
 			<a href="#" class="c-block__hero">
 
-				<img src="http://placekitten.com/g/650/366" alt="Hero Image" class="c-block__hero-image">
+				<img src="http://placehold.it/650x366" alt="Hero Image" class="c-block__hero-image">
 
 				<h2 class="c-block__hero-h2">You forget what you want to remember, and you remember what you want to forget.</h2>
 
@@ -477,7 +477,7 @@
 			<a href="#" class="c-block__media">
 
 				<div class="c-block__media-image-outer">
-					<img src="http://placekitten.com/g/250/250" alt="Square Image" class="c-block__media-image">
+					<img src="http://placehold.it/250x250" alt="Square Image" class="c-block__media-image">
 				</div>
 
 				<div class="c-block__media-body">
@@ -495,7 +495,7 @@
 			
 			<a href="#" class="c-block__tout">
 
-				<img src="http://placekitten.com/g/650/366" alt="Landscape Image" class="c-block__tout-image">
+				<img src="http://placehold.it/650x366" alt="Landscape Image" class="c-block__tout-image">
 
 				<h2 class="c-block__tout-h2">Nothing is so painful to the human mind as a great and sudden change</h2>
 
@@ -510,7 +510,7 @@
 			<figure class="c-block__figure">
 
 				<div class="c-block__figure-media">
-					<img src="http://placekitten.com/g/650/366" alt="Landscape Image" class="c-block__figure-image">
+					<img src="http://placehold.it/650x366" alt="Landscape Image" class="c-block__figure-image">
 				</div>
 
 				<figcaption class="c-block__figure-caption">This is an example of an image with a caption. Photo captions, also known as cutlines, are a few lines of text used to explain or elaborate on published photographs.</figcaption>

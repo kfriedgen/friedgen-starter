@@ -2,15 +2,27 @@
 
 .u-base {
 	
-	&__h1 {}
+	&__h1 {
+		margin-bottom: $global-spacer--2;
+	}
 
-	&__h2 {}
+	&__h2 {
+		margin-bottom: $global-spacer--2;
+	}
 
-	&__h3 {}
+	&__h3 {
+		margin-bottom: $global-spacer--2;
+	}
 
-	&__h4 {}
+	&__h4 {
+		margin-bottom: $global-spacer--2;
+	}
 
-	&__h5 {}
+	&__h5 {
+		margin-bottom: $global-spacer--2;
+	}
 
-	&__h6 {}
+	&__h6 {
+		margin-bottom: $global-spacer--2;
+	}
 }
