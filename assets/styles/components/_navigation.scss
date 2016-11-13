@@ -4,18 +4,28 @@
 	
 	&-main {
 
-		&__list {}
+		&__list {
+            display: flex;
+            justify-content: space-around;
+            padding-left: 0;
+		}
 
-		&__item {}
+		&__item {
+			list-style: none;
+		}
 
 		&__link {}
 	}
 
 	&-footer {
 
-		&__list {}
+		&__list {
+			padding-left: 0;
+		}
 
-		&__item {}
+		&__item {
+			list-style: none;
+		}
 
 		&__link {}
 	}

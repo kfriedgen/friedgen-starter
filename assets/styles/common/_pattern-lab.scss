@@ -127,7 +127,14 @@
         &-tertiary {}
     }
 
-    &__animation {}
+    &__animation {
+
+        &.is-first {}
+        
+        &.is-second {}
+
+        &.is-third {}
+    }
 
     &__button {}
 

@@ -1,8 +1,21 @@
 // Pagination Styles
 
 .o-pagination {
+	display: flex;
+	justify-content: space-around;
+	padding-left: 0;
 	
-	&__li {}
+	&__li {
+		list-style-type: none;
+
+		&.is-active {
+			text-decoration: underline;;
+			
+			a {
+				color: $black;
+			}
+		}
+	}
 
 	&__a {}
 }

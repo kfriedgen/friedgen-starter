@@ -2,5 +2,13 @@
 
 .c-logo {
 
-	&__outer {}
+	&:hover {
+		fill: $blue;
+		cursor: pointer;
+	}
+
+	&__outer {
+		max-width: 200px;
+		margin: auto;
+	}
 }
