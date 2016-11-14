@@ -14,14 +14,13 @@ $global-spacer--5: 		50px;
 $white: 				#fff;
 $black:					#000;
 $grey:					#ccc;
-$dark-grey:				#8c8c8c;
-$red:					red;
-$gold:					gold;
-$green:					green;
-$orange:				orange;
-$blue:					blue;
-$pink:					pink;
-$dark-pink:				#cc0066;
+$grey-dark:				#302d33;
+$grey-light:			#ebe8e4;
+$red:					#b23a2e;
+$gold:					#d69a35;
+$turquoise:				#28aea7;
+$orange:				#d36037;
+$blue: 					#4a71a0;
 
 // Brand Colors
 $body-background: 		#f6f5f4;
@@ -29,17 +28,17 @@ $box-background: 		#3e403e;
 
 // UI Colors
 $highlight:				$gold;
-$success:				$green;
+$success:				$turquoise;
 $warning:				$orange;
 $error:					$red;
 $information:			$blue;
-$link-primary:			$dark-pink;
+$link-primary:			$turquoise;
 
 // Font Colors
-$box-font-color: 		$black;
-$font-primary-color: 	$black;
-$link-color: 			$green;
-$link-hover:			$grey;
+$box-font-color: 		$grey-dark;
+$font-primary-color: 	$grey-dark;
+$link-color: 			$turquoise;
+$link-hover:			$blue;
 
 // Font Sizes
 $font-extra-small: 		10px;
