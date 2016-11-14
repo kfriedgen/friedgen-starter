@@ -23,7 +23,7 @@
         font-style: normal;
         text-transform: uppercase;
         letter-spacing: 1px;
-        color: $dark-grey;
+        color: $grey-dark;
     }
 
     &__color {
@@ -31,7 +31,7 @@
         list-style: none;
 
         @include media-breakpoint-up(sm) {
-            margin-bottom: 0;
+            margin-bottom: $global-spacer;
         }
 
         &-outer {}
@@ -51,21 +51,36 @@
                 .c-pattern-lab__color--first {
                     
                     .c-pattern-lab__color-block {
-                        background: $red;
+                        background: $grey-dark;
                     }
                 }
 
                 .c-pattern-lab__color--second {
                     
                     .c-pattern-lab__color-block {
-                        background: $green;
+                        border: 1px solid $grey-dark;
+                        background: $grey-light;
                     }
                 }
 
                 .c-pattern-lab__color--third {
                     
                     .c-pattern-lab__color-block {
+                        background: $red;
+                    }
+                }
+
+                .c-pattern-lab__color--fourth {
+                    
+                    .c-pattern-lab__color-block {
                         background: $gold;
+                    }
+                }
+
+                .c-pattern-lab__color--fifth {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $turquoise;
                     }
                 }
             }
@@ -75,29 +90,42 @@
                 .c-pattern-lab__color--first {
                     
                     .c-pattern-lab__color-block {
-                        background: $dark-grey;
+                        background: $white;
                     }
                 }
 
                 .c-pattern-lab__color--second {
                     
                     .c-pattern-lab__color-block {
-                        background: $blue;
+                        background: $grey;
                     }
                 }
 
                 .c-pattern-lab__color--third {
                     
                     .c-pattern-lab__color-block {
-                        background: $pink;
+                        background: $gold;
                     }
                 }
 
                 .c-pattern-lab__color--fourth {
                     
                     .c-pattern-lab__color-block {
-                        border: 1px solid $black;
-                        background: $white;
+                        background: $orange;
+                    }
+                }
+
+                .c-pattern-lab__color--fifth {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $red;
+                    }
+                }
+
+                .c-pattern-lab__color--sixth {
+                    
+                    .c-pattern-lab__color-block {
+                        background: $blue;
                     }
                 }
             }
@@ -165,6 +193,14 @@
     &__navigation {}
 
     &__pagination {}
+
+    &__icons {
+
+        &-inner {
+            display: flex;
+            align-items: center;
+        }
+    }
 }
 
 // Hide Sidebar 

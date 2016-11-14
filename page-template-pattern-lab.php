@@ -5,6 +5,16 @@
 ?>
 
 <div class="c-pattern-lab">
+
+	<div class="c-pattern-lab__logo">
+
+		<div class="c-logo__outer">
+
+            <?php get_template_part('templates/logo'); ?>
+
+		</div>
+
+	</div>
 	
 	<div class="c-pattern-lab__color-outer">
 
@@ -19,11 +29,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$red
+					$grey
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#ff0000
+					#cccccc
 				</div>
 			
 			</li>
@@ -33,11 +43,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$green
+					$grey-light
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#008000
+					#ebe8e4
 				</div>
 			
 			</li>
@@ -47,11 +57,39 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
+					$red
+				</div>
+				
+				<div class="c-pattern-lab__color-hex">
+					#b23a2e
+				</div>
+			
+			</li>
+
+			<li class="c-pattern-lab__color c-pattern-lab__color--fourth">
+				
+				<div class="c-pattern-lab__color-block"></div>
+
+				<div class="c-pattern-lab__color-name">
 					$gold
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#ffd700
+					#d69a35
+				</div>
+			
+			</li>
+
+			<li class="c-pattern-lab__color c-pattern-lab__color--fifth">
+				
+				<div class="c-pattern-lab__color-block"></div>
+
+				<div class="c-pattern-lab__color-name">
+					$turquoise
+				</div>
+				
+				<div class="c-pattern-lab__color-hex">
+					#28aea7
 				</div>
 			
 			</li>
@@ -73,11 +111,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$dark-grey
+					$white
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#8c8c8c
+					#ffffff
 				</div>
 			
 			</li>
@@ -87,11 +125,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$blue
+					$grey
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#0000ff
+					#cccccc
 				</div>
 			
 			</li>
@@ -101,11 +139,11 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$dark-pink
+					$gold
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#cc0066
+					#d69a35
 				</div>
 			
 			</li>
@@ -115,11 +153,39 @@
 				<div class="c-pattern-lab__color-block"></div>
 
 				<div class="c-pattern-lab__color-name">
-					$white
+					$orange
 				</div>
 				
 				<div class="c-pattern-lab__color-hex">
-					#ffffff
+					#d36037
+				</div>
+			
+			</li>
+
+			<li class="c-pattern-lab__color c-pattern-lab__color--fifth">
+				
+				<div class="c-pattern-lab__color-block"></div>
+
+				<div class="c-pattern-lab__color-name">
+					$red
+				</div>
+				
+				<div class="c-pattern-lab__color-hex">
+					#b23a2e
+				</div>
+			
+			</li>
+
+			<li class="c-pattern-lab__color c-pattern-lab__color--sixth">
+				
+				<div class="c-pattern-lab__color-block"></div>
+
+				<div class="c-pattern-lab__color-name">
+					$blue
+				</div>
+				
+				<div class="c-pattern-lab__color-hex">
+					#4a71a0
 				</div>
 			
 			</li>
@@ -321,48 +387,46 @@
 
 			<div class="c-logo__outer">
 
-				<svg version="1.1" id="Layer_1" class="c-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 46.4" style="enable-background:new 0 0 360 46.4;" xml:space="preserve">
-
-					<g>
-						<path class="st0" d="M5.3,7.9h10.7v23.6h8.8v8.4H5.3V7.9z"/>
-						<path class="st0" d="M28.8,24c0-2.3,0.4-4.5,1.3-6.5c0.9-2,2.1-3.8,3.6-5.4c1.5-1.5,3.3-2.7,5.4-3.6c2-0.9,4.2-1.3,6.5-1.3
-							c2.3,0,4.5,0.4,6.5,1.3c2,0.9,3.8,2.1,5.4,3.6c1.5,1.5,2.7,3.3,3.6,5.4c0.9,2,1.3,4.2,1.3,6.5c0,2.3-0.4,4.5-1.3,6.5
-							c-0.9,2-2.1,3.8-3.6,5.4c-1.5,1.5-3.3,2.7-5.4,3.6c-2,0.9-4.2,1.3-6.5,1.3c-2.3,0-4.5-0.4-6.5-1.3c-2-0.9-3.8-2.1-5.4-3.6
-							c-1.5-1.5-2.7-3.3-3.6-5.4C29.3,28.4,28.8,26.3,28.8,24z M38.9,24c0,0.9,0.2,1.8,0.5,2.6c0.4,0.8,0.8,1.5,1.4,2.1
-							c0.6,0.6,1.3,1.1,2.1,1.4c0.8,0.4,1.7,0.5,2.6,0.5s1.8-0.2,2.6-0.5c0.8-0.4,1.5-0.8,2.1-1.4c0.6-0.6,1.1-1.3,1.4-2.1
-							c0.4-0.8,0.5-1.7,0.5-2.6c0-0.9-0.2-1.8-0.5-2.6c-0.4-0.8-0.8-1.5-1.4-2.1c-0.6-0.6-1.3-1.1-2.1-1.4s-1.7-0.5-2.6-0.5
-							s-1.8,0.2-2.6,0.5s-1.5,0.8-2.1,1.4c-0.6,0.6-1.1,1.3-1.4,2.1C39.1,22.2,38.9,23,38.9,24z"/>
-						<path class="st0" d="M89.1,18.8c-0.6-0.5-1.3-0.9-2.2-1.2c-0.9-0.3-1.7-0.4-2.5-0.4c-0.9,0-1.8,0.2-2.5,0.5c-0.8,0.3-1.4,0.8-2,1.4
-							c-0.6,0.6-1,1.3-1.3,2.1C78.2,22.1,78,23,78,24s0.2,1.9,0.5,2.7c0.4,0.8,0.8,1.5,1.4,2.1c0.6,0.6,1.3,1.1,2.1,1.4s1.7,0.5,2.6,0.5
-							c1.1,0,2.1-0.2,3-0.7c0.9-0.5,1.7-1.1,2.3-1.9h-2.9v-6.7h12.3V32c-0.7,1.3-1.6,2.5-2.6,3.6c-1,1.1-2.2,2-3.4,2.8s-2.6,1.4-4.1,1.8
-							c-1.5,0.4-3,0.6-4.6,0.6c-2.3,0-4.5-0.4-6.5-1.3c-2-0.9-3.8-2-5.4-3.6c-1.5-1.5-2.7-3.3-3.6-5.3c-0.9-2-1.3-4.3-1.3-6.6
-							c0-2.3,0.4-4.5,1.2-6.5c0.8-2,2-3.8,3.4-5.4c1.5-1.5,3.2-2.7,5.2-3.6c2-0.9,4.2-1.3,6.5-1.3c1.8,0,3.3,0.2,4.7,0.5
-							c1.3,0.4,2.4,0.8,3.3,1.2c1.1,0.5,1.9,1.1,2.6,1.7L89.1,18.8z"/>
-						<path class="st0" d="M105,24c0-2.3,0.4-4.5,1.3-6.5c0.9-2,2.1-3.8,3.6-5.4c1.5-1.5,3.3-2.7,5.4-3.6c2-0.9,4.2-1.3,6.5-1.3
-							c2.3,0,4.5,0.4,6.5,1.3c2,0.9,3.8,2.1,5.4,3.6c1.5,1.5,2.7,3.3,3.6,5.4c0.9,2,1.3,4.2,1.3,6.5c0,2.3-0.4,4.5-1.3,6.5
-							c-0.9,2-2.1,3.8-3.6,5.4c-1.5,1.5-3.3,2.7-5.4,3.6c-2,0.9-4.2,1.3-6.5,1.3c-2.3,0-4.5-0.4-6.5-1.3c-2-0.9-3.8-2.1-5.4-3.6
-							c-1.5-1.5-2.7-3.3-3.6-5.4C105.5,28.4,105,26.3,105,24z M115.1,24c0,0.9,0.2,1.8,0.5,2.6c0.4,0.8,0.8,1.5,1.4,2.1
-							c0.6,0.6,1.3,1.1,2.1,1.4c0.8,0.4,1.7,0.5,2.6,0.5s1.8-0.2,2.6-0.5c0.8-0.4,1.5-0.8,2.1-1.4c0.6-0.6,1.1-1.3,1.4-2.1
-							c0.4-0.8,0.5-1.7,0.5-2.6c0-0.9-0.2-1.8-0.5-2.6c-0.4-0.8-0.8-1.5-1.4-2.1c-0.6-0.6-1.3-1.1-2.1-1.4s-1.7-0.5-2.6-0.5
-							s-1.8,0.2-2.6,0.5s-1.5,0.8-2.1,1.4c-0.6,0.6-1.1,1.3-1.4,2.1C115.3,22.2,115.1,23,115.1,24z"/>
-						<path class="st0" d="M158.1,39.9v-32h8.9c3,0,5.7,0.3,8,1c2.4,0.7,4.3,1.7,6,3c1.6,1.3,2.8,3,3.7,5c0.8,2,1.3,4.3,1.3,6.9
-							c0,2.6-0.4,4.9-1.3,6.9c-0.8,2-2.1,3.7-3.7,5c-1.6,1.3-3.6,2.4-6,3c-2.4,0.7-5,1-8,1H158.1z M168.3,30.8c2.4,0,4.3-0.6,5.6-1.7
-							c1.3-1.1,2-2.9,2-5.2c0-2.3-0.7-4.1-2-5.2s-3.2-1.7-5.6-1.7V30.8z"/>
-						<path class="st0" d="M192.1,7.9H211v8.4h-8.6v3.6h8.5v8h-8.5v3.7h9v8.4h-19.2V7.9z"/>
-						<path class="st0" d="M218.8,7.9h18.9v8.4H229v3.6h8.5v8H229v12.1h-10.2V7.9z"/>
-						<path class="st0" d="M252.4,7.9h7.7l12.1,32h-10.1l-1.1-2.9h-9.7l-1.1,2.9h-10.1L252.4,7.9z M258.4,30l-2.2-5.6l-2.2,5.6H258.4z"/>
-						<path class="st0" d="M288.7,40.8c-2,0-3.8-0.3-5.5-0.8c-1.6-0.5-3-1.3-4.2-2.3c-1.2-1-2-2.3-2.7-3.9c-0.6-1.6-0.9-3.4-0.9-5.5V7.9
-							h10.2v19.9c0,1.1,0.2,2,0.7,2.6c0.5,0.6,1.2,0.9,2.3,0.9c1.1,0,1.9-0.3,2.3-0.9c0.5-0.6,0.7-1.4,0.7-2.6V7.9H302v20.4
-							c0,2.1-0.3,4-0.9,5.5c-0.6,1.6-1.5,2.9-2.7,3.9c-1.2,1-2.6,1.8-4.2,2.3C292.6,40.5,290.7,40.8,288.7,40.8z"/>
-						<path class="st0" d="M308.8,7.9h10.7v23.6h8.8v8.4h-19.5V7.9z"/>
-						<path class="st0" d="M337.8,16.3h-5.9V7.9h22.4v8.4h-5.9v23.6h-10.6V16.3z"/>
-					</g>
-
-				</svg>
+                <?php get_template_part('templates/logo'); ?>
 
 			</div>
 
 		</div>
+
+	</div>
+
+	<div class="c-pattern-lab__image">
+		
+		<h2 class="c-pattern-lab__section-title">
+			Photo Treatments
+		</h2>
+
+        <div class="c-image__row">
+        
+            <img src="http://68.media.tumblr.com/8be3b2e25d7151a04712661ca9ebb61d/tumblr_ms5k16nw9X1rfnyiro1_1280.jpg" alt="example of a photo" />
+
+        </div>
+
+        <div class="c-image__column">
+            
+            <img src="http://68.media.tumblr.com/tumblr_mab0poLoFa1rfnyiro1_1280.jpg" alt="portrait photo" />
+
+            <img src="http://68.media.tumblr.com/tumblr_mab0bkJ64a1rfnyiro1_1280.jpg" alt="portrait photo" />
+        </div>
+
+        <div class="c-image__center">
+            
+            <img src="http://68.media.tumblr.com/tumblr_mab05fQWK91rfnyiro1_1280.jpg" alt="centered photo" />
+
+        </div>
+
+        <div class="c-image__row-column">
+            
+            <img src="http://68.media.tumblr.com/tumblr_maaz4pnoNH1rfnyiro1_1280.jpg" alt="portrait" />
+
+            <img src="http://68.media.tumblr.com/tumblr_maaxrvb7AG1rfnyiro1_1280.jpg" alt="landscape" />
+
+        </div>
 
 	</div>
 
@@ -657,5 +721,45 @@
 		</ol>
 
 	</div>
+
+    <div class="c-pattern-lab__icons">
+        
+        <h2 class="c-pattern-lab__section-title">
+            Icons
+        </h2>
+
+        <div class="c-pattern-lab__icons-inner">
+
+	        <div class="o-icon">
+	        	<?php get_template_part('templates/icons/camera'); ?>
+	        </div>
+
+	        <div class="o-icon">
+	        	<?php get_template_part('templates/icons/suitcase'); ?>
+	        </div>
+
+	        <div class="o-icon">
+	        	<?php get_template_part('templates/icons/ticket'); ?>
+	        </div>
+
+        </div>
+
+        <div class="c-pattern-lab__icons-inner">
+
+	        <div class="o-icon">
+	        	<?php get_template_part('templates/icons/brand-camera'); ?>
+	        </div>
+
+	        <div class="o-icon">
+	        	<?php get_template_part('templates/icons/brand-suitcase'); ?>
+	        </div>
+
+	        <div class="o-icon">
+	        	<?php get_template_part('templates/icons/brand-ticket'); ?>
+	        </div>
+
+        </div>
+
+    </div>
 
 </div>
