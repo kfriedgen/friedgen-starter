@@ -1,18 +1,18 @@
 // Image Styles
 
 .c-image {
-	
-	&--large {}
+    
+    &--large {}
 
-	&--avatar {
-		max-width: 200px;
-	}
+    &--avatar {
+        max-width: 200px;
+    }
 
-	&--landscape {}
+    &--landscape {}
 
-	&--portrait {}
+    &--portrait {}
 
-	&__row {
+    &__row {
         margin-bottom: $global-spacer--2;
     }
 
