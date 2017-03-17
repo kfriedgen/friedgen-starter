@@ -1,0 +1,20 @@
+// Icon Styles
+
+.o-icon {
+    width: 200px;
+
+    &__camera {}
+
+    &__suitcase {}
+
+    &__ticket {}
+
+    &__brand {
+
+        &-camera {}
+
+        &-suitcase {}
+
+        &-ticket {}
+    }
+}

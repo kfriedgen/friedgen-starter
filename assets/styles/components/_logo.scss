@@ -1,10 +1,14 @@
 // Logo Styles
 
 .c-logo {
+	fill: $grey-dark;
 
 	&:hover {
-		fill: $blue;
 		cursor: pointer;
+
+		.c-logo__first-word {
+			fill: $turquoise;
+		}
 	}
 
 	&__outer {

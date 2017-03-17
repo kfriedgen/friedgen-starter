@@ -3,6 +3,10 @@
 // Typography
 
 body {
+<<<<<<< HEAD
+=======
+	background: $grey-light;
+>>>>>>> master
 }
 
 h1 {}
@@ -29,7 +33,7 @@ a {
 
 	&:hover,
 	&:focus {
-		color: $pink;
+		color: $link-hover;
 	}
 }
 
